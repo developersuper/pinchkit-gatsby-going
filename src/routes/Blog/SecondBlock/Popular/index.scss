@@ -1,0 +1,33 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  width: 355px;
+  .popular-title {
+    line-height: 29px;
+  }
+  .popular-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    .popular-each-link {
+      display: flex;
+      padding: 24px 0px;
+      border-bottom:  1px solid #F2F3F8;;
+      align-items: center;
+      .blog-info {
+        display: flex;
+        flex-direction: column;
+        width: 265px;
+        flex-shrink: 0;
+        margin-right: 20px;
+        .blog-info-title {
+          line-height: 22px;
+        }
+        .blog-info-text {
+          margin-top: 1px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

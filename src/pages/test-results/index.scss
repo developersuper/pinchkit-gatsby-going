@@ -1,0 +1,122 @@
+.test-results-back-arrow {
+  margin-bottom: 48px;
+  padding-top: 165px;
+  padding-left: 70px;
+}
+.test-results-block {
+  * {
+    box-sizing: border-box;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1024px;
+  width: 100%;
+  padding: 48px 0px 80px 0px;
+  margin: auto;
+  .check-card{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    padding: 46px;
+    margin-bottom: 64px;
+    .left-part {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      .avatar-wrapper {
+        border: 3px solid #482D8D;
+        padding: 6px;
+        border-radius: 120px;
+        margin-right: 32px;
+        img {
+          width: 108px;
+          height: 108px;
+          border-radius: 108px;
+        }
+      }
+      .avatar-desc {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          margin-bottom: 2px;
+        }
+        .btn-group {
+          margin-top:16px;
+          display: flex;
+          .download-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 16px;
+            white-space: nowrap;
+            img {
+              width: 13px;
+              height: 14px;
+              margin-right: 13px;
+            }
+          }
+          .email-btn {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 18px 16px;
+            border: 1px solid #482D8D;
+            border-radius: 16px;
+            width: 48px;
+            height: 48px;
+            img {
+              width: 17px;
+              height: 13px;
+            }
+          }
+          .email-btn:hover {opacity: 0.7;}
+        }
+      }
+    }
+    .right-part {
+      flex: 1;
+      width: 100%;
+      padding-left: 106px;
+    }
+  }
+  .text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    .text-block {
+      margin-bottom: 32px;
+      h1 {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 584px) {
+  .test-results-back-arrow {
+    margin-bottom: 30px;
+    padding-top: 165px;
+    padding-left: 20px;
+  }
+  .test-results-block {
+    width: 95vw;
+    .check-card{
+      flex-direction: column;
+      .left-part {
+        justify-content: center;
+      }
+      .right-part {
+        margin-top: 50px;
+        padding-left: 0px;
+        text-align: center;
+      }
+    }
+  }
+}

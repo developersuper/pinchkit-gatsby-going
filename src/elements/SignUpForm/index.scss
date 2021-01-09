@@ -1,0 +1,33 @@
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    input, a {
+        flex: 1;
+        margin: 10px;
+    }
+    input {
+        padding: 16px 26px;
+        border-style: solid;
+        font-size: 18px;
+        border: 0.5px solid #BABABA;
+        outline: none;
+    }
+    a {
+        font-size: 18px;
+        font-family: Univers-LT-Std-45-Light;
+        line-height: 30px;
+    }
+    ::placeholder {
+        color:#9498AB;
+        font-size: 18px;
+    }
+    .personal-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .signup-btn {
+        border-radius: 10px;
+    }
+}

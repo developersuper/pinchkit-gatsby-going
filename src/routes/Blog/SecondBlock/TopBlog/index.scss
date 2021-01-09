@@ -1,0 +1,34 @@
+.topblog {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-bottom: 80px;
+  .topblog-image {
+    border-radius: 10px;
+  }
+  .text-wrapper {
+    height: 150px;
+    margin-top: 34px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .topblog-title {
+      line-height: 40px;
+    }
+    .topblog-text {
+      margin-top: 18px;
+      max-height: 90px;
+      overflow: hidden;
+    }
+  }
+  .topblog-author {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+    .author-info {
+      padding: 0px 20px;
+    }
+  }
+}

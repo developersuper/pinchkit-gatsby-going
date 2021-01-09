@@ -1,0 +1,118 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    filter: brightness(1.5);
+  }
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+@font-face {
+  font-family: Rubik;
+  src: url("./fonts/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Pangram;
+  src: url("./fonts/Pangram-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./fonts/Inter-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./fonts/Inter-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("./fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("./fonts/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("./fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Univers-LT-Std-45-Light;
+  src: url("./fonts/Univers-LT-Std-45-Light.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: univers-lt-std-65-bold;
+  src: url("./fonts/univers-lt-std-65-bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Univers-LT-Std-45-Light-Oblique;
+  src: url("./fonts/Univers-LT-Std-45-Light-Oblique.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: univers-lt-std-55-roman;
+  src: url("./fonts/univers-lt-std-55-roman.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: georgia;
+  src: url("./fonts/georgia bold.ttf");
+  font-weight: bold;
+}

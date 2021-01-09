@@ -1,0 +1,12 @@
+.dashboard-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+@media only screen and (max-width: 1043px) {
+    .dashboard-page {
+        max-width: 1440px;
+        margin: auto;
+    }
+}

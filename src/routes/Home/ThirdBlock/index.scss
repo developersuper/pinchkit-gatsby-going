@@ -1,0 +1,103 @@
+.home-third-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:auto;
+  margin: 0px auto;
+  width: 100%;
+  .home3-inner-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .home3-img {
+      min-width: 350px;
+      width: 623px;
+    }
+    .description-section {
+      margin: 250px 50px 190px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 2;
+      min-width: 360px;
+      max-width: 360px;
+      .title {
+        line-height: 48px;
+        letter-spacing: -0.15px;
+        margin-bottom: 16px;
+      }
+      .home3-description {
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        color: #F4F4F4;
+      }
+      .watch-video {
+        font-family: univers-lt-std-65-bold;
+        line-height: 22px;
+      }
+    }
+  }
+}
+.home3-subBlocks {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 57px auto 168px auto;
+  .home3-subBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 87px;
+    .subBlock-description-section {
+      width: 365px;
+      .subBlock-title {
+        line-height: 42px;
+        letter-spacing: -0.12px;
+        margin-bottom: 12px;
+      }
+      .subBlock-description {
+        line-height: 26px;
+      }
+      .subBlock-btn {
+        max-width: 255px;
+        width: 100%;
+        padding: 16px 50px;
+        border-radius: 28.5px;
+        font-family: 'univers-lt-std-55-roman';
+      }
+    }
+    .subBlock-img {
+      width: 365px;
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .home3-subBlocks {
+    .home3-subBlock {
+      justify-content: center;
+      .subBlock-description-section {
+        margin: 5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .home-third-block {
+    .home3-inner-block {
+      .description-section {
+        margin: 150px 0px;
+      }
+      .home3-img {
+        min-width: 350px;
+        width: unset;
+        max-width: 370px;
+      }
+    }
+  }
+}
+

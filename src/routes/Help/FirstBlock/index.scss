@@ -1,0 +1,116 @@
+.help-first-block {
+  margin: auto;
+  padding: 200px 30px 100px 30px;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .help-title {
+    letter-spacing: -0.19px;
+    line-height: 64px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .help-contact-info {
+    line-height: 26px;
+    margin-bottom: 48px;
+  }
+  ul {
+    background: #F9FAFD;
+    border: 1px solid #E9EDF4;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0 0 38px 0;
+    padding: 0px 0px;
+    li {
+      float: left;
+      cursor: pointer;
+      display: block;
+      border-radius: 10px;
+      padding: 13px 42px;
+      line-height: 22px;
+      font-family: Univers-LT-Std-45-Light;
+    }
+  }
+  .questions {
+    display: flex;
+    flex-direction: column;
+    max-width: 1270px;
+    width: 100%;
+    hr {
+      align-self: center;
+      border: none;
+      border-top: 1px solid #E9E9E9;
+      margin: 0px !important;
+      width: 95%;
+    }
+    .letter-spacing-half {
+      letter-spacing: 0.5px;
+    }
+    .each-question-active {
+      border-radius: 10px;
+      box-shadow: 0 0 9px 0 rgba(0,0,0,0.15);
+      .each-question-title {
+        margin-bottom: 20px;
+      }
+    }
+    .each-question{
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      padding: 18px 32px 32px 32px;
+      .each-question-title {
+        display: flex;
+        justify-content: space-between;
+        h1 {
+          position: relative;
+          line-height: 25px;
+          position: relative;
+        }
+        .question-arrow-up {
+          background-image: url("./up.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 16px 8px;
+          width: 16px;
+          height: 8px;
+          min-width: 16px;
+          margin-top: 8px;
+        }
+        .question-arrow-down {
+          background-image: url("./down.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 16px 8px;
+          width: 16px;
+          height: 8px;
+          min-width: 16px;
+          margin-top: 8px;
+        }
+        .letter-spacing-half {
+          padding-right: 32px;
+          letter-spacing: 0;
+          line-height: 22px;
+        }
+     }
+    }
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .help-first-block {
+    padding: 20px;
+    padding-top: 200px;
+    text-align: center;
+    ul {
+      width: 90%;
+      li{
+        float: none;
+      }
+    }
+    .each-question {
+      text-align: left;
+      padding: 10px;
+    }
+  }
+}

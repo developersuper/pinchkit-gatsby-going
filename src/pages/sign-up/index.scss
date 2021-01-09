@@ -1,0 +1,70 @@
+.signup-block {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f9f9f9;
+	.main-img {
+		width: 38vw; 
+		object-fit: cover;
+	}
+	.right-part {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 100;
+		.main-part {
+			display: flex;
+			flex-direction: column;
+			max-width: 385px;
+			width: 100%;
+			padding: 155px 25px 70px 25px;
+			.title {
+				margin-bottom: 32px;
+			}
+			input {
+				margin-bottom: 16px;
+			}
+			.form-label {
+					line-height: 20px;
+					font-family: Inter;
+					margin-bottom: 8px;
+			}
+			.forgot-pass {
+				font-family: Inter;
+				margin-bottom: 32px;
+				text-align: right;
+			}
+			.checkbox {
+				display: flex;
+				align-items: center;
+				margin-top: 12px;
+				margin-bottom: 40px;
+				.input-checkbox {
+					width: 25px;
+					height: 25px;
+					margin-right: 17px;
+					margin-bottom: 0px;
+				}
+				.checkbox-text {
+					a {
+						margin-left: 10px;
+					}
+				}
+			}
+			.sign-up-text {
+				margin-top: 32px;
+				text-align: center;
+				a {
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 850px) {
+  .signup-block {
+		.main-img {
+			width: 100%;
+			height: 100vh; 
+		}
+	}
+}

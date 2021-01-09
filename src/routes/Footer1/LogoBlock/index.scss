@@ -1,0 +1,25 @@
+.contact-section {
+  padding-top: 20px;
+  min-width: 221px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+  .contact-section-text {
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
+  .contact-section-img {
+    margin-bottom: 34px;
+    width: 112px;
+    height: 42px;
+    mix-blend-mode: screen;
+  }
+}
+//
+@media only screen and (max-width: 768px) {
+  .contact-section {
+    img {
+      width: 113px;
+    }
+  }
+}

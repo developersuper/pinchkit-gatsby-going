@@ -1,0 +1,45 @@
+.subscribe-block {
+    padding-top: 20px;
+    max-width: 250px;
+    padding-right: 29px;
+    h1 {
+        margin-bottom: 30px;
+    }
+    span {
+        display: block;
+        margin-bottom: 20px;
+    }
+    div{
+      position: relative;
+      ::placeholder{
+        color: rgba(255, 255, 255, 0.2);
+      }
+      input {
+        width: 100%;
+        padding: 10px 0px 12px 30px;
+        border-radius: 48px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        font-family: Nunito;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        &:focus {
+          outline: none;
+        }
+      }
+      .subscribe-block-icon {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        right: -2%;
+        bottom: 50%;
+        transform: translate(50%, 50%);
+        background-image: url('./send.png');
+        background-position: center;
+        border-radius: 48px;
+        background-repeat: no-repeat;
+        border: none;
+        outline: none;
+      }
+    }
+}

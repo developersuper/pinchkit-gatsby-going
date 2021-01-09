@@ -1,0 +1,21 @@
+.personal-wrapper{
+  display: flex;
+  margin: 40px 15px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 200px;
+  .about-second-photo {
+    max-width: 240px;
+    height: 265px;
+    border-radius: 15px;
+  }
+  .title {
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .description {
+    margin-top: 5px;
+    line-height: 28px;
+  }
+}

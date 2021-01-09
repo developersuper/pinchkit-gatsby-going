@@ -1,0 +1,26 @@
+.social-links-section {
+  padding-top: 20px;
+  min-width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  .social-link {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    position: relative;
+    a {
+      font-family: OpenSans;
+      margin-left: 40px;
+    }
+    img {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      object-fit: contain;
+    }
+  }
+}

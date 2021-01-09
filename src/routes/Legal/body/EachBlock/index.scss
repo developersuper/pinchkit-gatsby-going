@@ -1,0 +1,71 @@
+.legal-block {
+    .legal-block-title {
+        margin-top: 120px;
+        line-height: 48px;
+        margin-bottom: 67px;
+        font-size: 28px;
+    }
+    .legal-block-body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 96px;
+        .each-terms {
+            display: flex;
+            justify-content: space-between;
+            .each-terms-body{
+                max-width: 480px;
+                margin-bottom: 72px;
+                .each-terms-title {
+                    margin-bottom: 12px;
+                    line-height: 35px;
+                }
+                .each-terms-description {
+                    line-height: 28px;
+                    color: #333333;
+                }
+            }
+            .each-terms-toggle {
+                div {
+                    background-image: url('./Icon.png');
+                    background-repeat: no-repeat;
+                    background-size: 9px 6px;
+                    width: 23px;
+                    height: 23px;
+                    border-radius: 23px;
+                    border: 2px solid #F6F7FB;
+                    background-position: center;
+                    margin-left: 20px;
+                    outline: none;
+                }
+                .rotate {
+                  transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1124px) {
+  .legal-block {
+    .legal-block-body {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .legal-block {
+    .legal-block-body {
+      .each-term {
+        .each-term-toggle {
+          margin-top: 20px;
+          div {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

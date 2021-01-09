@@ -1,0 +1,63 @@
+.review-order-second {
+    max-width: 1150px;
+    margin: 100px 0px;
+    width: 100%;
+    .title {
+        line-height: 56px; 
+        width: 100%;
+        margin-bottom: 100px;
+     }
+    .inner{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+        justify-content: space-between;
+        .left-part {
+            min-width: 350px;
+            flex: 1;
+            .second-image-wrapper {
+                display: flex;
+                justify-content: center;
+                .second-image { 
+                    max-width: 500px;
+                    object-fit: contain;
+                    width: 100%
+                }
+            }
+        }
+        .right-part {
+            margin-top: 70px;
+            max-width: 560px;
+            min-width: 350px;
+            flex: 1;
+            .each-feature {
+                display: flex;
+                .each-feature-icon {
+                    background-color: #F6F7FB;
+                    margin-right: 30px;
+                    padding: 0px 21px;
+                    height: 64px;
+                    border-radius: 64px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .each-feature-main {
+                    margin-bottom: 56px;
+                    .each-feature-title {
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+  
+  @media only screen and (max-width: 1060px) {
+    .purchase-second{
+      max-width: 550px;
+    }
+  }
+  

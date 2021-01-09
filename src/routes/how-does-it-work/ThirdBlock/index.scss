@@ -1,0 +1,29 @@
+.how-third-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 0 30px;
+  max-width: 1400px;
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .text {
+      margin-top: 8px;
+    }
+  }
+  .flow {
+    margin-top: 91px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1012px) {
+  .how-third-block {
+    max-width: 600px;
+    text-align: center;
+  }
+}

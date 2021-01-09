@@ -1,0 +1,32 @@
+.about-sixth-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 89px;
+  .title {
+    margin-bottom: 4px;
+    line-height: 28px;
+  }
+  .partners-section {
+    width: 100%;
+    max-width: 1244px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+      padding: 20px;
+      max-width: 120px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-sixth-block {
+    .partners-section {
+      img {
+        padding: 10px;
+      }
+    }
+  }
+}

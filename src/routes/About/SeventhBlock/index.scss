@@ -1,0 +1,40 @@
+.about-seventh-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 64px 165px 35px 165px;
+  .title {
+    padding-bottom: 12px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+  }
+  .description {
+    line-height: 24px;
+  }
+  .social-links-section {
+    padding-top: 32px;
+    max-width: 152px;
+    display: flex;
+    justify-content: space-between;
+    .social-link {
+      width: 24px;
+      height: 24px;
+      text-align: center;
+      position: relative;
+      img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-seventh-block {
+    padding: 20px;
+  }
+}

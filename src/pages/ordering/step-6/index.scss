@@ -1,0 +1,83 @@
+.order-step6-block {
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 20px;
+	.step6-background {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		max-width: 720px;
+		background: #F9F9F9;
+		border: 1px solid #EDEDED;
+		box-sizing: border-box;
+		border-radius: 16px;
+		width: 100%;
+		padding: 54px 0px;
+		.step6-inside {
+            margin: 10px;
+			max-width: 416px;
+			display: flex;
+			flex-direction: column;
+            align-items: center;
+            .step6-title {
+                width: 100%;
+                text-align: left;
+                font-family: Pangram;
+                font-style: normal;
+                line-height: 32px;
+                margin-bottom: 16px;
+            }
+            .step6-checkAll {
+                width: 100%;
+                text-align: left;
+                font-family: Inter;
+                font-style: normal;
+                line-height: 24px;
+                color: rgba(26, 32, 44, 0.75);
+                margin-bottom: 24px;
+            }
+            .symptoms {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 22px 20px;
+                background: #FFFFFF;
+                border: 1px solid #ECECEC;
+                box-sizing: border-box;
+                border-radius: 8px;
+                margin-bottom: 16px;
+                .symptoms-title {
+                    font-family: Inter;
+                    line-height: 20px;
+                    color: #333333;
+                }
+                input {
+                    width: 24px;
+                    height: 24px;
+                    border: 1.5px solid #C5C5C5;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                }
+            }
+            .step6-active-btn {
+                margin: 16px 0px;
+                width: 100%;
+                box-sizing: border-box;
+                font-family: Pangram;
+                line-height: 24px;
+            }
+            .step6-passive-btn {
+                width: 100%;
+                box-sizing: border-box;
+                font-family: Pangram;
+                line-height: 24px;
+            }
+        }
+    }
+    .step-mark{
+        margin: 72px 0px 66px 0px;
+    }
+}

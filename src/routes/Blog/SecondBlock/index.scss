@@ -1,0 +1,30 @@
+.blog-second-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 5px;
+  margin: 90px auto 0px auto;
+  box-sizing: border-box;
+  .blog-second-title{  
+    max-width: 600px;
+    margin-bottom: 50px;
+  }
+  .blog-second-board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  .blog-second-block {
+    width: 750px;
+    .popular {
+      margin: auto;
+    }
+  }
+}
+@media only screen and (max-width: 790px) {
+  .blog-second-block {
+    width: 350px;
+  }
+}

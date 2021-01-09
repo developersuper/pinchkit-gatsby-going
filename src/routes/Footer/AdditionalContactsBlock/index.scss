@@ -1,0 +1,16 @@
+.additional-contacts-section {
+    min-width: 221px;
+    padding-top: 20px;
+    h1 {
+        padding-bottom:26px;
+        font-family: Montserrat;
+    }
+    .contacts-section {
+        display: flex;
+        flex-direction: column;
+        a {
+            font-family: OpenSans;
+            padding-bottom: 20px;
+        }
+    }
+}

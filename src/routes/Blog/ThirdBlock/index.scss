@@ -1,0 +1,29 @@
+.blog-third-block {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto 156px auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+  box-sizing: border-box;
+  .blog-third-first {
+    margin: auto;
+    margin-top: 70px;
+    max-width: 500px;
+    padding: 0 15px;
+    .blog-third-title {
+      margin-bottom: 24px;
+      line-height: 70px;
+      letter-spacing: -0.7px;
+      max-width: 295px;
+    }
+  }
+  .blog-third-second {
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+}

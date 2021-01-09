@@ -1,0 +1,113 @@
+.home-sixth-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 105px 10px;
+  margin: auto;
+  .six-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    min-width: 340px;
+    .home6-title {
+      max-width: 350px;
+      line-height: 48px;
+      letter-spacing: -0.15px;
+      margin-bottom: 24px;
+    }
+    .home6-description {
+      max-width: 350px;
+      line-height: 26px;
+      letter-spacing: 0.2px;
+    }
+  }
+  .six-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 790px;
+    .right-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      .right-each-box {
+        display: flex;
+        margin: 15px;
+        flex-direction: column;
+        box-shadow: 0 0 9px 0 rgba(0,0,0,0.15);
+        border-radius: 12px;
+        padding: 36px;
+        .each-box-up {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          // border-bottom: 1px solid #EAEAEA;
+          padding-bottom: 16px;
+          margin-bottom: 27px;
+          h1 {
+            line-height: 30px;
+          }
+          span {
+            line-height: 26px;
+            letter-spacing: 0.3px;
+          }
+          img {
+            margin-right: 16px;
+            width: 56px;
+            height: 56px;
+            border-radius: 56px;
+          }
+        }
+        .each-box-down {
+          display: flex;
+          flex-direction: column;
+          span {
+            line-height: 24px;
+            max-width: 290px;
+            margin-left: 3px;
+          }
+          .comma {
+            margin: 0px;
+            padding: 0px;
+            font-size: 64px;
+            font-family: georgia;
+            letter-spacing: -3px;
+            text-align: right;
+            line-height: 5px;
+            padding-bottom: 33px;
+          }
+        }
+      }
+    }
+    .slider-symbol-wrapper {
+      margin-top: 62px;
+      display: flex;
+      span {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 761px) {
+  .home-sixth-block {
+    .six-left {
+      text-align: center;
+    }
+    .six-right {
+      flex: unset;
+      min-width: unset;
+      .right-boxes {
+        justify-content: center;
+      }
+    }
+  }
+}

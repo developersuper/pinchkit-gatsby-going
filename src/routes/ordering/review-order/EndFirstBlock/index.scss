@@ -1,0 +1,29 @@
+.review-order-end-first {
+  * {
+    box-sizing: border-box;
+  }
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 92px;
+  .logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .step-mark{
+      margin: 82px 0px 66px 0px;
+    }
+  }
+  .btn-group {
+    display: flex;
+    max-width: 583px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .btn {
+      max-width: 280px;
+      width: 100%;
+    }
+  }
+}

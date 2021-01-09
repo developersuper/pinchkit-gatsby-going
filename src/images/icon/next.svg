@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B9561914-D888-4768-8098-2418C102BC21</title>
+    <defs>
+        <filter x="-38.9%" y="-38.9%" width="177.8%" height="177.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="7.75822757e-05 -4e-05 9.59999858 -4e-05 9.59999858 14.39816 7.75822757e-05 14.39816"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-1" transform="translate(-1252.000000, -691.000000)">
+            <g id="hero" transform="translate(-210.000000, 0.000000)">
+                <g id="next" filter="url(#filter-1)" transform="translate(1475.000000, 704.000000)">
+                    <circle id="Oval" fill="#48288F" cx="22.5" cy="22.5" r="22.5"></circle>
+                    <g filter="url(#filter-2)" id="Group-3">
+                        <g transform="translate(19.000000, 15.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M9.16864,6.27578 L1.96844,0.27558 C1.45724,-0.14722 0.70044,-0.07562 0.27784,0.43538 C-0.14256,0.94358 -0.07416,1.69598 0.43084,2.12018 L6.52464,7.19818 L0.43084,12.27618 C-0.07796,12.70138 -0.14576,13.45858 0.27944,13.96738 C0.70384,14.47538 1.45944,14.54398 1.96844,14.12078 L9.16864,8.12038 C9.67804,7.69478 9.74604,6.93698 9.32044,6.42758 C9.27444,6.37238 9.22364,6.32158 9.16864,6.27578" id="Fill-1" fill="#000000" mask="url(#mask-4)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

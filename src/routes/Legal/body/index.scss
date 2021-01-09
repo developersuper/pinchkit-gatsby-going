@@ -1,0 +1,30 @@
+.legal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 260px 96px 132px;
+    max-width: 1170px;
+    margin: auto;
+    .legal-title {
+        line-height: 56px;
+    }
+    .legal-down-arrow-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 17px;
+        .legal-down-arrow {
+            width: 70px;
+            height: 17px;
+            bottom: 70px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .legal-body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,104 @@
+.customInput {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  .icon-normal {
+    width: 100%;
+    padding: 16px 24px;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Inter;
+  }
+  ::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .left-icon-input {
+    padding-left: 60px;
+  }
+  .left-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+  }
+  .email-left-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 28px;
+    top: 20px;
+  }
+  .phone-left-icon {
+    position: absolute;
+    width: 12px;
+    height: 19px;
+    left: 30px;
+    top: 18px;
+}
+  .pass-left-icon {
+    position: absolute;
+    width: 12px;
+    height: 15px;
+    left: 30px;
+    top: 21px;
+  }
+  .right-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 24px;
+    top: 16px;
+  }
+  .pass-right-icon {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    right: 22px;
+    top: 22px;
+  }
+  .pass-right-icon:hover {
+    opacity: 0.7;
+  }
+  .calendar {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    padding: 32px;
+    border: none;
+  }
+  .eachTile {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #161A3C;
+    padding: 7px 0px;
+  }
+  .arrow-button {
+    font-size: 20px;
+  }
+  .calendar-wrapper {
+    position: absolute;
+    z-index: 9999;
+    margin-top: 8px;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .customInput{
+    .calendar {
+      padding: 10px;
+    }
+  }
+}

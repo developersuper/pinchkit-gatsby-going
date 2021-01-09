@@ -1,0 +1,50 @@
+.home-seventh-block {
+  text-align: center;
+  padding: 99px 20px;
+  max-width: 1170px;
+  margin: auto;
+  .title {
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    margin-bottom: 56px;
+  }
+  .symptoms {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .each-symptom {
+      width: 330px;
+      padding: 12px 20px;
+      line-height: 48px;
+      &.center {
+        justify-self: center;
+      }
+      &.end {
+        justify-self: end;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1148px) {
+  .home-seventh-block {
+    .symptoms {
+      grid-template-columns: repeat(2, 1fr);
+      .each-symptom {
+        justify-self: center !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 776px) {
+  .home-seventh-block {
+    padding: 99px 10px;
+    .symptoms {
+      grid-template-columns: repeat(1, 1fr);
+      .each-symptom {
+        justify-self: center !important;
+        padding: 12px 0px;
+      }
+    }
+  }
+}

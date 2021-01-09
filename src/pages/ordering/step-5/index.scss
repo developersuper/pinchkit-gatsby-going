@@ -1,0 +1,74 @@
+.order-step5-block {
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 20px;
+	.step5-background {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		max-width: 720px;
+		background: #F9F9F9;
+		border: 1px solid #EDEDED;
+		box-sizing: border-box;
+		border-radius: 16px;
+		width: 100%;
+		padding: 54px 0px;
+		.step5-inside {
+            margin: 10px;
+			max-width: 544px;
+			display: flex;
+			flex-direction: column;
+            align-items: center;
+            .step5-questions {
+                .each-title {
+                    font-family: Pangram;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 28px;
+                    margin-bottom: 56px;
+                }
+                .btn-group {
+                    display: flex;
+                    margin-bottom: 88px;
+                    justify-content: space-between;
+                    align-items: center;
+                    max-width: 500px;
+                    width: 100%;
+                    button {
+                        padding: 16px;
+                        border-radius: 16px;
+                        text-align: center;
+                        font-family: Pangram;
+                        max-width: 230px;
+                        width: 100%;
+                        margin: 0px 10px;
+                    }
+                    span {
+                        margin: 3px;
+                        min-width: 25px;
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 16px;
+                        text-align: center;
+                        width: 28px;
+                        padding: 6px 0px;
+                        background: #FFFFFF;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .bottom-btns{
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
+    .step-mark{
+        margin: 72px 0px 66px 0px;
+    }
+}

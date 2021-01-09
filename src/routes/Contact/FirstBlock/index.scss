@@ -1,0 +1,99 @@
+.contact-first-block {
+  margin: auto;
+  padding: 100px 10px;
+  max-width: 1150px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+  }
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  .contact-1-inner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    .contact-info {
+      margin-top: 78px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      h1 {
+        margin-bottom: 21px;
+      }
+      span {
+        max-width: 318px;
+        margin-bottom: 38px;
+      }
+      a {
+        margin-bottom: 28px;
+        font-size: 18px;
+        font-family: univers-lt-std-65-bold;
+        span {
+          margin-left: 15px;
+        }
+      }
+    }
+    .form-wrapper {
+      min-width: 360px;
+      max-width: 465px;
+      width: 100%;
+      .contact-form {
+        box-sizing: border-box;
+        margin-top: 78px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        max-width: 456px;
+        border-radius: 4px;
+        .contact-1-submit-btn {
+        }
+        .contact-form-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          width: 100%;
+          span {
+            margin-bottom: 1px;
+            line-height: 28px;
+          }
+          input {
+            border: solid 1px #C0C2C7;
+            line-height: 20px;
+            width: 100%;
+          }
+          ::placeholder {
+            font-size: 18px;
+            font-family: Univers-LT-Std-45-Light;
+          }
+          input, textarea {
+            padding: 16px 19px;
+            margin-bottom: 26px;
+          }
+          textarea {
+            border: solid 1px #C0C2C7;
+            height: 155px;
+          }
+        }
+        a {
+          font-size: 18px;
+          line-height: 32px;
+          border-radius: 10px;
+          width: 100%;
+          font-family: univers-lt-std-65-bold;
+        }
+      }
+    }
+  }
+}
+
+.down-arrow {
+  width: 70px;
+  height: 17px;
+  position: absolute;
+  bottom: 70px;
+  left: calc(50% - 35px);
+}

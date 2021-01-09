@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - yarn global add gatsby-cli
+      - yarn install
+  build:
+    commands:
+      # build
+      - gatsby build
+      # deploy to s3
+      - aws s3 sync public/ s3://$BUCKET_NAME
+      # invalidate CF cache
+      - aws cloudfront create-invalidation --distribution-id $CF_DIST_ID --paths "/*"

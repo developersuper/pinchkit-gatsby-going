@@ -1,0 +1,94 @@
+.purchase-third{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px;
+    width: 100%;
+    .left-part {
+        max-width: 500px;
+        min-width: 350px;
+        margin-top: 50px;
+        flex: 1;
+        .second-title {
+           line-height: 56px; 
+        }
+    }
+    .right-part {
+        max-width: 400px;
+        min-width: 350px;
+        margin-top: 50px;
+        flex: 1;
+        .avatar-wrapper {
+            border-style: solid;
+            width: 78px;
+            height: 78px;
+            border-radius: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-width: 2px;
+            .avatar {
+                width: 64px;
+                height: 64px;
+                border-radius: 64px;
+            }
+        }
+        .user-title {
+            line-height: 40px;
+            margin-top: 32px;
+        }
+        .user-description {
+            margin-top: 16px;
+            line-height: 32px;
+        }
+        .slide-effect {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            .effect-each {
+                margin-right: 16px;
+                border: none;
+                width: 6px;
+                height: 6px;
+                border-radius: 6px;
+            }
+            .effect-each-active {
+                margin-right: 16px;
+                width: 7px;
+                height: 7px;
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 30px;
+            }
+        }
+        .slide-button {
+            margin-top: 64px;
+            width: 112px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .each-btn {
+                padding: 7px 16px;
+                border: solid 1px black;
+                border-radius: 48px;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+        .each-btn:hover {
+            color:#006EFF;
+            border-color: #006EFF;
+        }
+    }
+}
+  
+  @media only screen and (max-width: 1060px) {
+    .purchase-third{
+      max-width: 550px;
+      justify-content: center;
+    }
+  }
+  

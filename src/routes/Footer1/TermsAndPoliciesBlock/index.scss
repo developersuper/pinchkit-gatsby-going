@@ -1,0 +1,26 @@
+.terms-policies-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-left: 58px;
+  .links-section {
+    display: flex;
+    align-items: center;
+    a {
+      font-family: OpenSans;
+      margin: 0px 40px 0px 0px;
+    }
+  }
+}
+@media only screen and (max-width: 1047px) {
+    .terms-policies-block {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 499px) {
+  .terms-policies-block {
+    min-width: unset;
+  }
+}

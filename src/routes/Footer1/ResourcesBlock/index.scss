@@ -1,0 +1,14 @@
+.additional-contacts-section {
+    min-width: 221px;
+    padding-top: 20px;
+    h1 {
+        margin-bottom:58px;
+    }
+    .contacts-section {
+        display: flex;
+        flex-direction: column;
+        a {
+            margin-bottom: 22px;
+        }
+    }
+}

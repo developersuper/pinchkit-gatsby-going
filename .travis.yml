@@ -1,0 +1,14 @@
+language: node_js
+node_js: 14.14.0
+
+dist: trusty
+
+before_script:
+  - yarn global add gatsby-cli
+  - yarn install
+script:
+  - gatsby build
+  # - commitlint-travis
+
+notifications:
+  slack: pinchkit:pZ6t8Ga2k0elcsNtOTiqoRLX

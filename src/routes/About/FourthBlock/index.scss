@@ -1,0 +1,39 @@
+.about-fourth-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 140px;
+  .element-image {
+      flex: 1;
+      min-width: 350px;
+    }
+  .blog-section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    .blog-body {
+      display: flex;
+      flex-direction: column;
+      max-width: 455px;
+      align-items: center;
+      text-align: center;
+      min-height: 200px;
+      .about-4-title {
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        margin-bottom: 30px;
+      }
+    }
+    .learn-more {
+      line-height: 24px;
+      font-weight: 900;
+      font-family: Univers-LT-Std-45-Light;
+    }
+    .learn-more::after {
+      content:' →'
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.about-fifth-block {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 40px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  .about-5-title {
+    margin-bottom: 20px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+  }
+  .about-5-desc {
+    padding-bottom: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-fifth-block {
+    padding: 60px 0px;
+  }
+}

@@ -1,0 +1,40 @@
+.home-eighth-block {
+    padding: 120px 20px;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .title {
+      line-height: 48px;
+      letter-spacing: -0.4px;
+      margin-bottom: 68px;
+    }
+    .questions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .each-question {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 56px;
+            .each-question-title {
+              line-height: 34px;
+              margin-bottom: 10px;
+            }
+            .each-question-description {
+              line-height: 28px;
+            }
+            span {
+              max-width: 485px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+  .home-eighth-block {
+    align-items: center;
+    .questions {
+      display: inline-block;
+    }
+  }
+}

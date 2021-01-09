@@ -1,0 +1,15 @@
+.navigation-section {
+    margin-top: 20px;
+    min-width: 150px;
+    .navigation-title {
+        margin-bottom: 58px;
+        line-height: 19px;;
+    }
+    .links-section {
+        display: flex;
+        flex-direction: column;
+        a {
+            margin-bottom: 22px;
+        }
+    }
+}

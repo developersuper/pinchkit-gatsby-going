@@ -1,0 +1,41 @@
+.about-third-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 110px 15px 136px 15px;
+  max-width: 1150px;
+  margin: auto;
+  .element-image {
+    margin-bottom: 64px;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .learn-more {
+    font-weight: 900;
+    line-height: 32px;
+    font-family: Univers-LT-Std-45-Light;
+  }
+  .learn-more::after {
+    content:' →';
+    font-weight: 600;
+  }
+  .about-btn {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px;
+    margin-bottom: 16px;
+    width: 98px;
+    min-width: unset;
+  }
+  .about-third-title {
+    margin-bottom: 12px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+  }
+  .about-3-desc {
+    margin-bottom: 34px;
+    line-height: 30px;
+    max-width: 500px;
+  }
+}

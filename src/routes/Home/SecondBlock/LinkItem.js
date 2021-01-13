@@ -13,12 +13,16 @@ const LinkItem = ({title, description, setSrc, idx, src}) => {
     title: 'black',
     text: '#white',
   });
+  const [isMobile, setIsMobile] = useState(false);
 
-  const hover = () => setColor({
-    title: 'white',
-    primary: 'primary',
-    text: 'white'
-  })
+  const hover = () => {
+    if (isMobile) return;
+    return setColor({
+      title: 'white',
+      primary: 'primary',
+      text: 'white'
+    });
+  }
 
   const origin = () => {
       if(src !== idx)
@@ -34,6 +38,15 @@ const LinkItem = ({title, description, setSrc, idx, src}) => {
   }
   
   useEffect(() => {
+    const vw = window.innerWidth;
+    if (vw < 460) {
+      setIsMobile(true);
+      return setColor({
+        title: 'black',
+        primary: 'white',
+        text: '#333333',
+      });
+    }
     if(src === idx){
       setColor({
         title: 'white',

@@ -11,7 +11,6 @@ import './index.scss'
 // import SEO from 'components/seo'
 
 const PurchasePage = () => {
-  return (<div></div>)
   // const data = useStaticQuery(graphql`
   //   query PurchaseQuery {
   //     allShopifyProduct {
@@ -75,14 +74,14 @@ const PurchasePage = () => {
   // `)
   // const blocks = data?.contentfulPage?.blocks || []
   // const shopifyProduct = data?.allShopifyProduct?.edges[0]?.node || {}
-  // return (
-  //   <Layout isHome={true}>
-  //     <FirstBlock {...blocks[0]} product={shopifyProduct} />
-  //     <SecondBlock {...blocks[1]} />
-  //     <WhatTheyAreSayingBlock />
-  //     <SymptomsBlock />
-  //   </Layout>
-  // )
+  return (
+    <Layout isHome={true}>
+      {/* <FirstBlock {...blocks[0]} product={shopifyProduct} />
+      <SecondBlock {...blocks[1]} /> */}
+      <WhatTheyAreSayingBlock />
+      <SymptomsBlock />
+    </Layout>
+  )
 }
 
 export default PurchasePage

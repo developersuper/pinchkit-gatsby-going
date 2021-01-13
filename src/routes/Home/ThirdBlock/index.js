@@ -14,6 +14,7 @@ const ThirdBlock = ({ image, title, description, button, subBlocks }) => {
     <>
     <div className="home-third-block" sx={{backgroundColor: 'primary'}}>
       <div className="home3-inner-block">
+      <img src={image?.file?.url} className="home3-img-mobile" alt=""/>
       <div className="description-section">
         <H1 size="large-plus" color="white" className="title">{title}</H1>
         <Text size="medium-minus" color="#F4F4F4" className="home3-description">{description.description}</Text>

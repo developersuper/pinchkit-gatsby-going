@@ -15,16 +15,12 @@
     justify-content: space-between;
   }
 }
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1200px) {
   .blog-second-block {
-    width: 750px;
-    .popular {
+    .blog-second-board {
+      flex-direction: column;
+      flex-wrap: nowrap;
       margin: auto;
     }
-  }
-}
-@media only screen and (max-width: 790px) {
-  .blog-second-block {
-    width: 350px;
   }
 }

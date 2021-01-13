@@ -32,3 +32,11 @@
     }
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .topblog {
+    .text-wrapper {
+      height: 180px;
+    }
+  }
+}

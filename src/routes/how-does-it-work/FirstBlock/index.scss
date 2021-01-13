@@ -10,7 +10,6 @@
   }
   .how-inner-block {
     margin: 0px 10vw;
-    padding: 0px 10px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -35,5 +34,26 @@
       padding: 20px;
       border-radius: 29px;
     }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .how-first-block {
+    height: unset;
+    padding-top: 80px;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .how-first-block {
+    padding-top: 200px;
+  }
+  .simple-top-button {
+    margin-bottom: 100px;
+  }
+  .down-arrow {
+    bottom: 40px;
   }
 }

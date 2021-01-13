@@ -6,21 +6,9 @@
     margin: auto;
     .legal-title {
         line-height: 56px;
-    }
-    .legal-down-arrow-wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        height: 17px;
-        .legal-down-arrow {
-            width: 70px;
-            height: 17px;
-            bottom: 70px;
-        }
+        margin-bottom: 60px;
     }
 }
-
-
 
 @media only screen and (max-width: 768px) {
     .legal-body {

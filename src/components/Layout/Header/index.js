@@ -50,6 +50,7 @@ const Header = ({isHome}) => {
               </div>
             </div>
             {data?.contentfulNavigation?.pageLinks?.map(({ label, path, type, highlighted }) => {
+              if (path === "purchase") return;
               const to = `/${path}`;
               if (type === 'Button') {
                 if(isHome){
@@ -74,7 +75,7 @@ const Header = ({isHome}) => {
                   sx={{
                     color: 'primary',
                     fontSize: 'small',
-                    fontWeight: (location?.pathname?.startsWith(to) || highlighted)  ? 700 : 'normal',
+                    fontWeight: location?.pathname?.startsWith(to)  ? 700 : 'normal',
                     opacity: (location?.pathname?.startsWith(to) || highlighted) ? 1 : 0.9,
                   }}
                   className="nav-body-tag"

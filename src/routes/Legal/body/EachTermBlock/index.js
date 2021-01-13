@@ -7,13 +7,13 @@ import Text from 'elements/Text'
 
 import './index.scss'
 
-const EachTerm = ({subBlock, termId}) => {
+const EachTermBlock = ({title, description, termId}) => {
   const [show, setShow] = useState(true);
   return (
     <div className="each-terms" termId={termId}>
         <div className="each-terms-body">
-        <H1 size="medium" className="each-terms-title">{subBlock.title}</H1>
-        <Text size="medium-minus" family="Univers-LT-Std-45-Light" className="each-terms-description" style={{display:show?'block':'none'}}>{subBlock.description.description}</Text>
+        <H1 size="medium-plus" className="each-terms-title">{title}</H1>
+        <Text size="medium-minus" family="Univers-LT-Std-45-Light" className="each-terms-description" style={{display:show?'block':'none'}}>{description?.description}</Text>
         </div>
         <div className="each-terms-toggle">
             <div className={show?'rotate':''} 
@@ -28,7 +28,7 @@ const EachTerm = ({subBlock, termId}) => {
   )
 }
 
-export default EachTerm
+export default EachTermBlock
 
 
 

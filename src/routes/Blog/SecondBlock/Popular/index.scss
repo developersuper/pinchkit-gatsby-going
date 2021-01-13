@@ -31,3 +31,25 @@
     }
   }
 }
+@media only screen and (max-width: 380px) {
+  .popular {
+    .popular-link {
+      .popular-each-link {
+        .blog-info {
+          width: 225px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .popular {
+    .popular-link {
+      .popular-each-link {
+        .blog-info {
+          width: 175px;
+        }
+      }
+    }
+  }
+}

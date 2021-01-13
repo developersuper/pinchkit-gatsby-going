@@ -4,7 +4,6 @@ import React from 'react'
 
 import Layout from 'components/Layout'
 import FirstBlock from 'routes/Help/FirstBlock'
-import SymptomsBlock from 'components/SymptomsBlock'
 import http from 'services/articles'
 
 import './index.scss'
@@ -57,7 +56,6 @@ const HelpPage = () => {
   return (
     <Layout isHome={true}>
         <FirstBlock {...blocks[0]} articles={articles} sections={sections} />
-        <SymptomsBlock />
     </Layout>
   )
 }

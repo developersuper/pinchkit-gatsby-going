@@ -8,8 +8,6 @@ import './index.scss'
 // import SEO from 'components/seo'
 
 const DashboardPage = () => {
-  return (<div></div>)
-
   // const data = useStaticQuery(graphql`
   //   query DashboardQuery {
   //     allShopifyProduct {
@@ -70,11 +68,11 @@ const DashboardPage = () => {
   // `)
   // const blocks = data?.contentfulPage?.blocks || []
   // const shopifyProduct = data?.allShopifyProduct?.edges[0]?.node || {}
-  // return (
-  //   <Layout>
-  //     <MainBlock {...blocks[0]} product={shopifyProduct} />
-  //   </Layout>
-  // )
+  return (
+    <Layout>
+      {/* <MainBlock {...blocks[0]} product={shopifyProduct} /> */}
+    </Layout>
+  )
 }
 
 export default DashboardPage

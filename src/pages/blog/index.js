@@ -4,8 +4,7 @@ import React from 'react'
 import Layout from 'components/Layout'
 import FirstBlock from 'routes/Blog/FirstBlock'
 import SecondBlock from 'routes/Blog/SecondBlock'
-import ThirdBlock from 'routes/Blog/ThirdBlock'
-import SymptomsBlock from 'components/SymptomsBlock'
+// import ThirdBlock from 'routes/Blog/ThirdBlock'
 
 import './index.scss'
 // import SEO from 'components/seo'
@@ -120,8 +119,7 @@ const BlogPage = () => {
     <Layout isHome={true}>
       <FirstBlock {...blocks[0]} />
       <SecondBlock {...blocks[1]} blogs={blogs} />
-      <ThirdBlock {...blocks[2]} />
-      <SymptomsBlock />
+      {/* <ThirdBlock {...blocks[2]} /> */}
     </Layout>
   )
 }

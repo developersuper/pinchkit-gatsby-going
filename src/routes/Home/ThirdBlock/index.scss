@@ -14,6 +14,9 @@
       min-width: 350px;
       width: 623px;
     }
+    .home3-img-mobile {
+      display: none;
+    }
     .description-section {
       margin: 250px 50px 190px;
       display: flex;
@@ -81,6 +84,7 @@
       justify-content: center;
       .subBlock-description-section {
         margin: 5px;
+        padding: 0 20px;
       }
     }
   }
@@ -90,12 +94,36 @@
   .home-third-block {
     .home3-inner-block {
       .description-section {
-        margin: 150px 0px;
+        margin: 150px 40px;
       }
-      .home3-img {
+      .home3-img-mobile {
+        display: block;
         min-width: 350px;
         width: unset;
         max-width: 370px;
+      }
+      .home3-img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .home3-subBlocks {
+    .home3-subBlock {
+      .subBlock-img {
+        width: 300px;
+      }
+      .subBlock-description-section {
+        width: 300px;
+      }
+    }
+  }
+  .home-third-block {
+    .home3-inner-block {
+      .description-section {
+        min-width: 300px;
       }
     }
   }

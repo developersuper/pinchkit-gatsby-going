@@ -1,0 +1,34 @@
+.each-terms {
+    display: flex;
+    justify-content: space-between;
+    .each-terms-body{
+        margin-bottom: 72px;
+        .each-terms-title {
+            margin-bottom: 12px;
+            line-height: 35px;
+        }
+        .each-terms-description {
+            line-height: 28px;
+            color: #333333;
+        }
+    }
+    .each-terms-toggle {
+        div {
+            background-image: url('./Icon.png');
+            background-repeat: no-repeat;
+            background-size: 9px 6px;
+            width: 23px;
+            height: 23px;
+            border-radius: 23px;
+            border: 2px solid #F6F7FB;
+            background-position: center;
+            margin-left: 20px;
+            outline: none;
+        }
+        .rotate {
+          transform: rotate(180deg);
+        }
+    }
+}
+
+

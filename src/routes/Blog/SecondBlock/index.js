@@ -4,7 +4,6 @@ import { jsx } from 'theme-ui'
 import H1 from 'elements/H1'
 
 import TopBlog from './TopBlog'
-import Popular from './Popular'
 import './index.scss'
 
 const SecondBlock = ({ title = 'title', subBlocks, blogs }) => {
@@ -14,7 +13,7 @@ const SecondBlock = ({ title = 'title', subBlocks, blogs }) => {
       <div className="blog-second-board">
         <TopBlog {...blogs[0]} />
         <TopBlog {...blogs[1]} />
-        <Popular blogs={blogs.slice(2, 7)} />
+        <TopBlog {...blogs[2]} />
       </div>
     </div>
   )

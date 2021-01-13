@@ -32,3 +32,10 @@
     object-fit: cover;
   }
 }
+@media screen and (max-width: 320px) {
+  .about-first-block {
+    height: unset;
+    padding-top: 149px;
+    position: relative;
+  }
+}
